@@ -65,8 +65,7 @@ const Team: React.FC = () => {
             团队信息
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            我们的团队由经验丰富的导师和充满活力的学生组成，
-            专注于优化理论与智能决策算法设计等前沿理论研究
+            团队由经验丰富的导师和充满活力的学生组成， 专注于优化理论与智能决策算法前沿研究
           </p>
         </div>
 

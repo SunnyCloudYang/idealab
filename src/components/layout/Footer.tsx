@@ -32,8 +32,7 @@ const Footer: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                致力于优化理论与智能决策算法设计等前沿理论研究，
-                培养具有创新精神和实践能力的优秀人才。
+              致力于优化理论与智能决策算法研究，培养具有创新精神和实践能力的优秀人才。
               </p>
 
               {/* 联系信息 */}
