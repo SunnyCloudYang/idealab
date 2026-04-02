@@ -2643,9 +2643,9 @@ export const mockLectures: NewsItem[] = [
 export const mockTimeline: NewsItem[] = [
   {
     id: "news26",
-    title: "祝贺李宜福老师拿到MSOM RR，朱龑老师拿到POM RR，刘文倩老师拿到NRL和COR的publication",
+    title: "祝贺！李宜福老师的论文在MSOM R&R，朱龑老师的论文在POM R&R，刘文倩老师两篇论文论文分别在NRL与COR上发表",
     category: "achievement",
-    content: "祝贺李宜福老师拿到Manufacturing & Service Operations Management R&R，朱龑老师拿到Production and Operations Management R&R，刘文倩老师拿到Naval Research Logistics (NRL) 和 Computers & Operations Research (COR) 的publication",
+    content: "祝贺！李宜福老师的论文在Manufacturing & Service Operations Management R&R，朱龑老师的论文在Production and Operations Management R&R，刘文倩老师两篇论文论文分别在Naval Research Logistics与Computers & Operations Research上发表",
     publishDate: "2025-12-31",
     status: "published",
     featured: true,
@@ -2654,9 +2654,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news25",
-    title: "祝贺汪勐航与逯兰老师的TRE在线发表",
+    title: "祝贺！汪勐航与逯兰老师的论文在TRE期刊上在线发表",
     category: "achievement",
-    content: "祝贺汪勐航与逯兰老师的论文在Transportation Research Part E在线发表",
+    content: "祝贺！汪勐航与逯兰老师的论文《Cost allocation in a robust two-stage resource allocation game: Fairness and robustness》在Transportation Research Part E: Logistics and Transportation Review期刊上在线发表",
     publishDate: "2025-12-27",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2664,9 +2664,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news24",
-    title: "祝贺张勋老师拿到IJOC Minor Revision",
+    title: "祝贺！张勋老师的论文在IJOC 小修",
     category: "achievement",
-    content: "祝贺张勋老师的论文获得International Journal of Operations Research (IJOC) 小修",
+    content: "祝贺！张勋老师的论文在Informs Journal on Computing（IJOC）小修",
     publishDate: "2025-12-02",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2685,9 +2685,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news22",
-    title: "祝贺张勋老师拿到MS Minor Revision",
+    title: "祝贺！张勋老师的论文在MS 小修",
     category: "achievement",
-    content: "祝贺张勋老师的论文获得Manufacturing & Service Operations Management 小修",
+    content: "祝贺！张勋老师的论文在Management Science 小修",
     publishDate: "2025-06-14",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2695,9 +2695,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news21",
-    title: "祝贺张勋老师 OR Accepted",
+    title: "祝贺！张勋老师的论文在OR Accepted",
     category: "achievement",
-    content: "祝贺张勋老师的论文被Operations Research接受",
+    content: "祝贺！张勋老师的论文被Operations Research接受",
     publishDate: "2025-05-01",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2705,11 +2705,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news1",
-    title:
-      "祝贺郭秋炜拿到了POM小修、刘许成拿到了POM的R&R，卢蔚乾拿到了IEEE EM的大修！！",
+    title: "祝贺！刘许成的论文在POM R&R，卢蔚乾的论文在IEEE EM大修！",
     category: "achievement",
-    content:
-      "祝贺郭秋炜同学的论文拿到了Production and Operations Management 小修、刘许成同学的论文拿到了Production and Operations Management 的R&R，卢蔚乾同学的论文拿到了IEEE Transactions on Engineering Management 的大修！！",
+    content: "祝贺！刘许成的论文在POM R&R，卢蔚乾的论文在IEEE EM大修！",
     publishDate: "2025-07-14",
     status: "published",
     featured: true,
@@ -2718,9 +2716,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news2",
-    title: "祝贺于成成同学论文被omega接受！！",
+    title: "祝贺！于成成的论文在Omega接收",
     category: "achievement",
-    content: "",
+    content: "祝贺！于成成同学完成的论文“Robust battery swapping for e-bike sharing with uncertain covariates and partial outsourcing”被 omega 接收！！",
     publishDate: "2025-06-15",
     status: "published",
     featured: true,
@@ -2741,10 +2739,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news4",
-    title: "祝贺陆运阳和于成成获得EJOR大修！！",
+    title: "祝贺！陆运阳和于成成的论文在EJOR大修",
     category: "achievement",
-    content:
-      "祝贺陆运阳和于成成同学完成的论文被 EUROPEAN JOURNAL OF OPERATIONAL RESEARCH 大修！",
+    content: "祝贺！陆运阳和于成成的论文在EJOR大修",
     publishDate: "2025-05-17",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2752,9 +2749,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news5",
-    title: "祝贺李振东获得IJPR小修！！",
+    title: "祝贺！李振东的论文在IJPR小修！！",
     category: "achievement",
-    content: "",
+    content: "祝贺！李振东同学完成的论文“Logistics Cost Optimization and Allocation for Additive Manufacturer Make-to-Order Cooperation”在 International Journal of Production Research 小修！",
     publishDate: "2025-05-17",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2762,9 +2759,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news6",
-    title: "祝贺徐宽完成的论文被CIE接受！！",
+    title: "祝贺！徐宽与郑晨龙的论文被CIE接收、汪勐航与逯兰老师的论文在TRE小修、蔚乾的论文在NRL大修",
     category: "achievement",
-    content: "",
+    content: "祝贺！徐宽与郑晨龙的论文被CIE接收、汪勐航与逯兰老师的论文在TRE小修、蔚乾的论文在NRL大修",
     publishDate: "2025-04-14",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2772,9 +2769,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news7",
-    title: "祝贺郭秋炜获得POMS大修！！",
+    title: "祝贺！李宜福老师和郭秋炜的论文被POM接收",
     category: "achievement",
-    content: "",
+    content: "祝贺！李宜福老师和郭秋炜的论文被POM接收",
     publishDate: "2025-02-26",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2782,7 +2779,7 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news8",
-    title: "祝贺于成成获得POMS大修！！",
+    title: "祝贺！于成成的论文在POMS大修！！",
     category: "achievement",
     content:
       '祝贺于成成同学完成的论文"Mitigating the "Black Holes":Periodic Repair and Maintenance Problem of Shared Bikes"被 Production and OperationsManagement 大修！',
@@ -2882,9 +2879,9 @@ export const mockTimeline: NewsItem[] = [
   },
   {
     id: "news20",
-    title: "祝贺谭政拿到TS大修",
+    title: "祝贺！谭政的论文在TS大修",
     category: "achievement",
-    content: "祝贺谭政拿到TS大修",
+    content: "祝贺！谭政的论文在Transportation Science大修",
     publishDate: "2025-12-27",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2895,9 +2892,9 @@ export const mockTimeline: NewsItem[] = [
 export const mockNews: NewsItem[] = [
   {
     id: "news26",
-    title: "祝贺李宜福老师拿到MSOM RR，朱龑老师拿到POM RR，刘文倩老师拿到NRL和COR的publication",
+    title: "祝贺！李宜福老师的论文在MSOM R&R，朱龑老师的论文在POM R&R，刘文倩老师两篇论文论文分别在NRL与COR上发表",
     category: "achievement",
-    content: "祝贺李宜福老师拿到Manufacturing & Service Operations Management R&R，朱龑老师拿到Production and Operations Management R&R，刘文倩老师拿到Naval Research Logistics (NRL) 和 Computers & Operations Research (COR) 的publication",
+    content: "祝贺！李宜福老师的论文在Manufacturing & Service Operations Management R&R，朱龑老师的论文在Production and Operations Management R&R，刘文倩老师两篇论文论文分别在Naval Research Logistics与Computers & Operations Research上发表",
     publishDate: "2025-12-31",
     status: "published",
     featured: true,
@@ -2906,9 +2903,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news25",
-    title: "祝贺汪勐航与逯兰老师的TRE在线发表",
+    title: "祝贺！汪勐航与逯兰老师的论文在TRE期刊上在线发表",
     category: "achievement",
-    content: "祝贺汪勐航与逯兰老师的论文在Transportation Research Part E在线发表",
+    content: "祝贺！汪勐航与逯兰老师的论文《Cost allocation in a robust two-stage resource allocation game: Fairness and robustness》在Transportation Research Part E: Logistics and Transportation Review期刊上在线发表",
     publishDate: "2025-12-27",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2916,9 +2913,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news24",
-    title: "祝贺张勋老师拿到IJOC Minor Revision",
+    title: "祝贺！张勋老师的论文在IJOC 小修",
     category: "achievement",
-    content: "祝贺张勋老师的论文获得International Journal of Operations Research (IJOC) 小修",
+    content: "祝贺！张勋老师的论文在Informs Journal on Computing（IJOC）小修",
     publishDate: "2025-12-02",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2937,9 +2934,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news22",
-    title: "祝贺张勋老师拿到MS Minor Revision",
+    title: "祝贺！张勋老师的论文在MS 小修",
     category: "achievement",
-    content: "祝贺张勋老师的论文获得Manufacturing & Service Operations Management 小修",
+    content: "祝贺！张勋老师的论文在Management Science 小修",
     publishDate: "2025-06-14",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2947,9 +2944,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news21",
-    title: "祝贺张勋老师 OR Accepted",
+    title: "祝贺！张勋老师的论文在OR Accepted",
     category: "achievement",
-    content: "祝贺张勋老师的论文被Operations Research接受",
+    content: "祝贺！张勋老师的论文被Operations Research接受",
     publishDate: "2025-05-01",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -2957,11 +2954,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news1",
-    title:
-      "祝贺郭秋炜拿到了POM小修、刘许成拿到了POM的R&R，卢蔚乾拿到了IEEE EM的大修！！",
+    title: "祝贺！刘许成的论文在POM R&R，卢蔚乾的论文在IEEE EM大修！",
     category: "achievement",
-    content:
-      "祝贺郭秋炜同学的论文拿到了Production and Operations Management 小修、刘许成同学的论文拿到了Production and Operations Management 的R&R，卢蔚乾同学的论文拿到了IEEE Transactions on Engineering Management 的大修！！",
+    content: "祝贺！刘许成的论文在POM R&R，卢蔚乾的论文在IEEE EM大修！",
     publishDate: "2025-07-14",
     status: "published",
     featured: true,
@@ -2970,10 +2965,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news2",
-    title: "祝贺于成成同学论文被omega接受！！",
+    title: "祝贺！于成成的论文在Omega接收",
     category: "achievement",
-    content:
-      "祝贺于成成同学完成的论文“Robust battery swapping for e-bike sharing with uncertain covariates and partial outsourcing”被 omega 接受！！",
+    content: "祝贺！于成成同学完成的论文“Robust battery swapping for e-bike sharing with uncertain covariates and partial outsourcing”被 omega 接收！！",
     publishDate: "2025-06-15",
     status: "published",
     featured: true,
@@ -2994,10 +2988,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news4",
-    title: "祝贺陆运阳和于成成获得EJOR大修！！",
+    title: "祝贺！陆运阳和于成成的论文在EJOR大修",
     category: "achievement",
-    content:
-      "祝贺陆运阳和于成成同学完成的论文被 EUROPEAN JOURNAL OF OPERATIONAL RESEARCH 大修！",
+    content: "祝贺！陆运阳和于成成的论文在EJOR大修",
     publishDate: "2025-05-17",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -3005,10 +2998,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news5",
-    title: "祝贺李振东获得IJPR小修！！",
+    title: "祝贺！李振东的论文在IJPR小修！！",
     category: "achievement",
-    content:
-      "祝贺李振东同学完成的论文“Logistics Cost Optimization and Allocation for Additive Manufacturer Make-to-Order Cooperation”被 International Journa of Production Research 小修！",
+    content: "祝贺！李振东同学完成的论文“Logistics Cost Optimization and Allocation for Additive Manufacturer Make-to-Order Cooperation”在 International Journal of Production Research 小修！",
     publishDate: "2025-05-17",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -3016,10 +3008,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news6",
-    title: "祝贺徐宽完成的论文被CIE接受！！",
+    title: "祝贺！徐宽与郑晨龙的论文被CIE接收、汪勐航与逯兰老师的论文在TRE小修、蔚乾的论文在NRL大修",
     category: "achievement",
-    content:
-      "祝贺徐宽同学完成的论文“Reinforcement Learning-Based Hyper.Heuristic for Vehicle Routing and Scheduling Problems”被 Computers &industrial Engineering 接受！",
+    content: "祝贺！徐宽与郑晨龙的论文被CIE接收、汪勐航与逯兰老师的论文在TRE小修、蔚乾的论文在NRL大修",
     publishDate: "2025-04-14",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -3027,10 +3018,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news7",
-    title: "祝贺郭秋炜获得POMS大修！！",
+    title: "祝贺！李宜福老师和郭秋炜的论文被POM接收",
     category: "achievement",
-    content:
-      "祝贺郭秋炜同学完成的论文“Retention Optimization in Maintenance Training Programs”被 Production and OperationsManagement 大修！",
+    content: "祝贺！李宜福老师和郭秋炜的论文被POM接收",
     publishDate: "2025-02-26",
     status: "published",
     tags: ["论文", "学术成果"],
@@ -3038,7 +3028,7 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news8",
-    title: "祝贺于成成获得POMS大修！！",
+    title: "祝贺！于成成的论文在POMS大修！！",
     category: "achievement",
     content:
       '祝贺于成成同学完成的论文“Mitigating the "Black Holes":Periodic Repair and Maintenance Problem of Shared Bikes”被 Production and OperationsManagement 大修！',
@@ -3156,9 +3146,9 @@ export const mockNews: NewsItem[] = [
   },
   {
     id: "news20",
-    title: "祝贺谭政拿到TS大修",
+    title: "祝贺！谭政的论文在TS大修",
     category: "achievement",
-    content: "祝贺谭政拿到TS大修",
+    content: "祝贺！谭政的论文在Transportation Science大修",
     publishDate: "2025-12-27",
     status: "published",
     tags: ["论文", "学术成果"],
