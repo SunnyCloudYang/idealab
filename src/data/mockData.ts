@@ -383,6 +383,52 @@ export const mockTeamMembers: TeamMember[] = [
     ],
     publications: [],
   },
+  {
+    id: "8",
+    name: "于成成",
+    nameEn: "Chengcheng Yu",
+    role: "faculty",
+    title: "特任副研究员",
+    supervisorType: "研究生导师",
+    avatar: "/images/avatars/于成成.png",
+    email: "yucc98@ustc.edu.cn",
+    researchInterests: [
+      "数据驱动的运营管理",
+      "智慧交通",
+    ],
+    bio: "特任副研究员，专注于共享经济与智慧交通系统的运营优化研究，在分布式鲁棒优化、运筹优化与数据驱动决策等理论方法方面开展深入研究。",
+    education: [
+      {
+        degree: "博士学位",
+        institution: "中国科学技术大学",
+        year: 2025,
+        major: "管理科学与工程",
+      },
+      {
+        degree: "学士学位",
+        institution: "河海大学",
+        year: 2020,
+        major: "信息管理与信息系统",
+      },
+    ],
+    workExperience: [
+      {
+        position: "特任副研究员",
+        institution: "中国科学技术大学管理学院管理科学系",
+        startYear: 2026,
+      },
+      {
+        position: "博士后研究员",
+        institution: "香港理工大学商学院物流及航运学系",
+        startYear: 2025,
+        endYear: 2026,
+      },
+    ],
+    representativeWorks: [
+      "Robust battery swapping for e-bike sharing with uncertain covariates and partial outsourcing. Omega, 2025.",
+    ],
+    publications: [],
+  },
   // 博士生
   {
     id: "7",
@@ -1434,13 +1480,14 @@ export const mockTeamMembers: TeamMember[] = [
   {
     id: "59",
     name: "于成成",
+    nameEn: "Chengcheng Yu",
     role: "alumni",
     avatar: "/images/avatars/于成成.png",
     researchInterests: [],
     bio: "博士毕业生，2020级",
     joinYear: 2020,
     graduationYear: 2025,
-    currentPosition: "香港理工大学博士后",
+    currentPosition: "中国科学技术大学管理学院特任副研究员",
     education: [
       {
         degree: "博士学位",
@@ -1453,7 +1500,9 @@ export const mockTeamMembers: TeamMember[] = [
         year: 2020,
       },
     ],
-    publications: [],
+    publications: [
+      "Robust battery swapping for e-bike sharing with uncertain covariates and partial outsourcing. Omega, 2025.",
+    ],
   },
   {
     id: "60",
