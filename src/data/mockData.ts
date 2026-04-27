@@ -2808,6 +2808,26 @@ export const mockLectures: NewsItem[] = [
 // 通知公告数据（单独的时间线页面）
 export const mockTimeline: NewsItem[] = [
   {
+    id: "news28",
+    title: "祝贺振东、仁静、耀太获得2026校优秀毕业生荣誉称号",
+    category: "achievement",
+    content: "祝贺振东、仁静、耀太获得2026校优秀毕业生荣誉称号",
+    publishDate: "2026-04-20",
+    status: "published",
+    tags: ["获奖", "优秀毕业生"],
+    author: "实验室办公室",
+  },
+  {
+    id: "news27",
+    title: "祝贺！逯兰，勐航的论文在IJOC 大修",
+    category: "achievement",
+    content: "祝贺！逯兰，勐航的论文在Informs Journal on Computing（IJOC）大修",
+    publishDate: "2026-03-30",
+    status: "published",
+    tags: ["论文", "学术成果"],
+    author: "实验室办公室",
+  },
+  {
     id: "news26",
     title: "祝贺！李宜福老师的论文在MSOM R&R，朱龑老师的论文在POM R&R，刘文倩老师两篇论文论文分别在NRL与COR上发表",
     category: "achievement",
@@ -3565,5 +3585,23 @@ export const mockGalleryImages = [
     category: "daily" as const,
     date: "2021-11-28",
     tags: ["团建", "团队活动"],
+  },
+  {
+    id: "21",
+    url: "/images/gallery/20260315-birthday.jpg",
+    thumbnail: "/images/gallery/20260315-birthday.jpg",
+    title: "实验室集体生日会",
+    category: "team" as const,
+    date: "2026-03-15",
+    tags: ["团建", "团队活动", "生日会"],
+  },
+  {
+    id: "22",
+    url: "/images/gallery/20260201-newyear.jpg",
+    thumbnail: "/images/gallery/20260201-newyear.jpg",
+    title: "26年庆祝新年",
+    category: "daily" as const,
+    date: "2026-02-01",
+    tags: ["新年", "节日", "团队活动"],
   },
 ];
