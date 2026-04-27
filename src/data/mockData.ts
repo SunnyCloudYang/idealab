@@ -3339,6 +3339,24 @@ export const mockNews: NewsItem[] = [
     status: "published",
     tags: ["论文", "学术成果"],
   },
+  {
+    id: "news27",
+    title: "祝贺！逯兰，勐航的论文在IJOC 大修",
+    category: "achievement",
+    content: "祝贺！逯兰，勐航的论文在Informs Journal on Computing（IJOC）大修",
+    publishDate: "2026-03-30",
+    status: "published",
+    tags: ["论文", "学术成果"],
+  },
+  {
+    id: "news28",
+    title: "祝贺振东、仁静、耀太获得2026校优秀毕业生荣誉称号",
+    category: "achievement",
+    content: "祝贺振东、仁静、耀太获得2026校优秀毕业生荣誉称号",
+    publishDate: "2026-04-20",
+    status: "published",
+    tags: ["获奖", "优秀毕业生"],
+  },
 ];
 // 示例项目数据
 export const mockProjects: Project[] = [
