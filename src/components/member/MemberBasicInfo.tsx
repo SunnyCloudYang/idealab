@@ -1,7 +1,6 @@
 import React from "react";
 import {
   EnvelopeIcon,
-  CalendarIcon,
   AcademicCapIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/outline";
@@ -12,7 +11,21 @@ interface MemberBasicInfoProps {
   member: TeamMember;
 }
 
+const formatMemberBio = (member: TeamMember) => {
+  if (!member.bio) return member.bio;
+  if (
+    member.role === "phd" ||
+    member.role === "master" ||
+    member.role === "alumni"
+  ) {
+    return member.bio.replace(/，?\d+级$/, "");
+  }
+  return member.bio;
+};
+
 const MemberBasicInfo: React.FC<MemberBasicInfoProps> = ({ member }) => {
+  const displayBio = formatMemberBio(member);
+
   const getRoleDisplayName = (role: TeamMember["role"]) => {
     const roleMap = {
       faculty: "导师",
@@ -94,25 +107,15 @@ const MemberBasicInfo: React.FC<MemberBasicInfoProps> = ({ member }) => {
                 )}
               </div>
             )}
-            {member.bio && (
+            {displayBio && (
               <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
-                {member.bio}
+                {displayBio}
               </p>
             )}
           </div>
 
           {/* 详细信息 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-            {member.joinYear && member.role !== "alumni" && (
-              <div className="flex items-center justify-center lg:justify-start space-x-2">
-                <CalendarIcon className="h-5 w-5 text-gray-400" />
-                <span className="text-gray-600">
-                  {member.role === "faculty" ? "入职时间" : "入学时间"}：
-                  {member.joinYear}年
-                </span>
-              </div>
-            )}
-
             {member.role === "alumni" && member.graduationYear && (
               <div className="flex items-center justify-center lg:justify-start space-x-2">
                 <AcademicCapIcon className="h-5 w-5 text-gray-400" />

@@ -77,8 +77,15 @@ const Home: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-              {/* 显示最新的3条动态 */}
-              {mockNews.slice(0, 3).map((news) => (
+              {/* 显示最新的3条动态（按发布日期倒序） */}
+              {[...mockNews]
+                .sort(
+                  (a, b) =>
+                    new Date(b.publishDate).getTime() -
+                    new Date(a.publishDate).getTime()
+                )
+                .slice(0, 3)
+                .map((news) => (
                 <NewsCard key={news.id} news={news} />
               ))}
             </div>

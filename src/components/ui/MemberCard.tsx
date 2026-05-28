@@ -10,12 +10,24 @@ interface MemberCardProps {
   className?: string;
 }
 
+const formatMemberBio = (member: TeamMember) => {
+  if (!member.bio) return member.bio;
+  if (
+    member.role === "phd" ||
+    member.role === "master" ||
+    member.role === "alumni"
+  ) {
+    return member.bio.replace(/，?\d+级$/, "");
+  }
+  return member.bio;
+};
+
 const MemberCard: React.FC<MemberCardProps> = ({
   member,
   showDetails = false,
   className = "",
 }) => {
-  // 移除未使用的函数
+  const displayBio = formatMemberBio(member);
 
   return (
     <div className={`group transition-all duration-200 ${className}`}>
@@ -87,9 +99,9 @@ const MemberCard: React.FC<MemberCardProps> = ({
           {/* 详细信息 */}
           {showDetails && (
             <div className="mt-3 space-y-2 text-left">
-              {member.bio && (
+              {displayBio && (
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  {member.bio}
+                  {displayBio}
                 </p>
               )}
 
@@ -102,13 +114,6 @@ const MemberCard: React.FC<MemberCardProps> = ({
                   {member.currentPosition && (
                     <div>当前去向：{member.currentPosition}</div>
                   )}
-                </div>
-              )}
-
-              {/* 入学年份 */}
-              {member.joinYear && member.role !== "alumni" && (
-                <div className="text-sm text-gray-600">
-                  加入时间：{member.joinYear}年
                 </div>
               )}
             </div>
