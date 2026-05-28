@@ -2808,6 +2808,17 @@ export const mockLectures: NewsItem[] = [
 // 通知公告数据（单独的时间线页面）
 export const mockTimeline: NewsItem[] = [
   {
+    id: "news31",
+    title: "祝贺张勋老师论文被MS，IJOC各接收一篇",
+    category: "achievement",
+    content: "祝贺张勋老师论文被MS，IJOC各接收一篇",
+    publishDate: "2026-05-27",
+    status: "published",
+    featured: true,
+    tags: ["论文", "学术成果"],
+    author: "实验室办公室",
+  },
+  {
     id: "news29",
     title: "祝贺逯兰于成成老师POM接收！祝贺蔚乾IEEE EM接收！",
     category: "achievement",
@@ -2816,6 +2827,16 @@ export const mockTimeline: NewsItem[] = [
     status: "published",
     featured: true,
     tags: ["论文", "学术成果"],
+    author: "实验室办公室",
+  },
+  {
+    id: "news30",
+    title: "祝贺陈龙赴东北大学（波士顿）攻读博士",
+    category: "personnel",
+    content: "祝贺陈龙赴东北大学（波士顿）攻读博士",
+    publishDate: "2026-05-15",
+    status: "published",
+    tags: ["人员动态", "升学"],
     author: "实验室办公室",
   },
   {
@@ -3088,6 +3109,17 @@ export const mockTimeline: NewsItem[] = [
 // 新闻动态数据（包含多种类型）
 export const mockNews: NewsItem[] = [
   {
+    id: "news31",
+    title: "祝贺张勋老师论文被MS，IJOC各接收一篇",
+    category: "achievement",
+    content: "祝贺张勋老师论文被MS，IJOC各接收一篇",
+    publishDate: "2026-05-27",
+    status: "published",
+    featured: true,
+    tags: ["论文", "学术成果"],
+    author: "实验室办公室",
+  },
+  {
     id: "news29",
     title: "祝贺逯兰于成成老师POM接收！祝贺蔚乾IEEE EM接收！",
     category: "achievement",
@@ -3096,6 +3128,16 @@ export const mockNews: NewsItem[] = [
     status: "published",
     featured: true,
     tags: ["论文", "学术成果"],
+    author: "实验室办公室",
+  },
+  {
+    id: "news30",
+    title: "祝贺陈龙赴东北大学（波士顿）攻读博士",
+    category: "personnel",
+    content: "祝贺陈龙赴东北大学（波士顿）攻读博士",
+    publishDate: "2026-05-15",
+    status: "published",
+    tags: ["人员动态", "升学"],
     author: "实验室办公室",
   },
   {
