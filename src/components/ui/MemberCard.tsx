@@ -66,7 +66,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
             </h3>
           </Link>
 
-          {member.nameEn && (
+          {member.role === "faculty" && member.nameEn && (
             <p className="text-sm text-gray-600">{member.nameEn}</p>
           )}
 
