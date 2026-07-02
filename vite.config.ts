@@ -7,6 +7,7 @@ export default defineConfig({
   base: "/idealab/", // Add prefix to all static asset paths
   build: {
     outDir: "docs",
-    emptyOutDir: false,
+    // 每次构建前清空 docs，避免残留旧的 hash 资源（assets/*.js 等）
+    emptyOutDir: true,
   },
 });
