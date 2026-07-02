@@ -3,7 +3,7 @@ export interface TeamMember {
   id: string;
   name: string;
   nameEn?: string;
-  role: "faculty" | "phd" | "master" | "alumni";
+  role: "faculty" | "postdoc" | "phd" | "master" | "alumni";
   type?: "engineer" | "academic";
   title?: string; // 职称
   supervisorType?: string; // 导师类型：博士生导师、研究生导师等

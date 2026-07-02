@@ -16,6 +16,7 @@ const formatMemberBio = (member: TeamMember) => {
   if (
     member.role === "phd" ||
     member.role === "master" ||
+    member.role === "postdoc" ||
     member.role === "alumni"
   ) {
     return member.bio.replace(/，?\d+级$/, "");
@@ -29,6 +30,7 @@ const MemberBasicInfo: React.FC<MemberBasicInfoProps> = ({ member }) => {
   const getRoleDisplayName = (role: TeamMember["role"]) => {
     const roleMap = {
       faculty: "导师",
+      postdoc: "博士后",
       phd: "博士生",
       master: "硕士生",
       alumni: "毕业生",
@@ -39,6 +41,7 @@ const MemberBasicInfo: React.FC<MemberBasicInfoProps> = ({ member }) => {
   const getRoleColor = (role: TeamMember["role"]) => {
     const colorMap = {
       faculty: "bg-purple-100 text-purple-800",
+      postdoc: "bg-indigo-100 text-indigo-800",
       phd: "bg-blue-100 text-blue-800",
       master: "bg-green-100 text-green-800",
       alumni: "bg-gray-100 text-gray-800",
@@ -125,11 +128,13 @@ const MemberBasicInfo: React.FC<MemberBasicInfoProps> = ({ member }) => {
               </div>
             )}
 
-            {member.role === "alumni" && member.currentPosition && (
+            {(member.role === "alumni" || member.role === "postdoc") &&
+              member.currentPosition && (
               <div className="flex items-center justify-center lg:justify-start space-x-2">
                 <GlobeAltIcon className="h-5 w-5 text-gray-400" />
                 <span className="text-gray-600">
-                  当前职位：{member.currentPosition}
+                  {member.role === "postdoc" ? "在站单位" : "当前职位"}：
+                  {member.currentPosition}
                 </span>
               </div>
             )}

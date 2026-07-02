@@ -47,13 +47,18 @@ const MemberDetail: React.FC = () => {
   // 根据成员角色决定显示哪些模块
   const shouldShowEducation =
     member.role === "faculty" ||
+    member.role === "postdoc" ||
     member.role === "phd" ||
     (member.education && member.education.length > 0);
   const shouldShowPublications =
     member.role === "faculty" ||
+    member.role === "postdoc" ||
     member.role === "phd" ||
     (member.publications && member.publications.length > 0);
-  const shouldShowProjects = member.role === "faculty" || member.role === "phd";
+  const shouldShowProjects =
+    member.role === "faculty" ||
+    member.role === "postdoc" ||
+    member.role === "phd";
 
   const breadcrumbItems = [
     { label: "首页", path: "/", icon: <HomeIcon className="h-4 w-4" /> },

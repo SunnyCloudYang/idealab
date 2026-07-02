@@ -15,6 +15,7 @@ const formatMemberBio = (member: TeamMember) => {
   if (
     member.role === "phd" ||
     member.role === "master" ||
+    member.role === "postdoc" ||
     member.role === "alumni"
   ) {
     return member.bio.replace(/，?\d+级$/, "");
@@ -105,14 +106,17 @@ const MemberCard: React.FC<MemberCardProps> = ({
                 </p>
               )}
 
-              {/* 毕业生信息 */}
-              {member.role === "alumni" && (
+              {/* 毕业生 / 博士后信息 */}
+              {(member.role === "alumni" || member.role === "postdoc") && (
                 <div className="text-sm text-gray-600">
-                  {member.graduationYear && (
+                  {member.role === "alumni" && member.graduationYear && (
                     <div>毕业年份：{member.graduationYear}年</div>
                   )}
                   {member.currentPosition && (
-                    <div>当前去向：{member.currentPosition}</div>
+                    <div>
+                      {member.role === "postdoc" ? "在站单位" : "当前去向"}：
+                      {member.currentPosition}
+                    </div>
                   )}
                 </div>
               )}

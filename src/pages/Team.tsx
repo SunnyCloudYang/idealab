@@ -2,10 +2,22 @@ import React, { useState } from "react";
 import Container from "../components/layout/Container";
 import { MemberCard } from "../components/ui";
 import { mockTeamMembers } from "../data/mockData";
+import type { TeamMember } from "../types";
+
+const isAlumniPhd = (member: TeamMember) =>
+  member.bio?.includes("博士") ?? false;
+
+const sortAlumni = (members: TeamMember[]) =>
+  [...members].sort((a, b) => {
+    const degreeOrder = Number(isAlumniPhd(b)) - Number(isAlumniPhd(a));
+    if (degreeOrder !== 0) return degreeOrder;
+    return (b.graduationYear ?? 0) - (a.graduationYear ?? 0);
+  });
 
 const Team: React.FC = () => {
   type RoleType =
     | "faculty"
+    | "postdoc"
     | "phd"
     | "academic_master"
     | "professional_master"
@@ -25,11 +37,14 @@ const Team: React.FC = () => {
       ? mockTeamMembers.filter(
           (m) => m.role === "master" && m.type === "engineer"
         )
+      : selectedRole === "alumni"
+      ? sortAlumni(mockTeamMembers.filter((m) => m.role === "alumni"))
       : mockTeamMembers.filter((member) => member.role === selectedRole);
 
   // 按角色分组显示，将硕士生分为学硕和专硕
   const membersByRole = {
     faculty: mockTeamMembers.filter((m) => m.role === "faculty"),
+    postdoc: mockTeamMembers.filter((m) => m.role === "postdoc"),
     phd: mockTeamMembers.filter((m) => m.role === "phd"),
     academic_master: mockTeamMembers.filter(
       (m) => m.role === "master" && m.type === "academic"
@@ -37,11 +52,12 @@ const Team: React.FC = () => {
     professional_master: mockTeamMembers.filter(
       (m) => m.role === "master" && m.type === "engineer"
     ),
-    alumni: mockTeamMembers.filter((m) => m.role === "alumni"),
+    alumni: sortAlumni(mockTeamMembers.filter((m) => m.role === "alumni")),
   };
 
   const roleDisplayNames = {
     faculty: "导师",
+    postdoc: "博士后",
     phd: "博士生",
     academic_master: "学术型硕士",
     professional_master: "专业型硕士",
@@ -50,6 +66,7 @@ const Team: React.FC = () => {
 
   const roleColors = {
     faculty: "bg-purple-100 text-purple-800 border-purple-200",
+    postdoc: "bg-indigo-100 text-indigo-800 border-indigo-200",
     phd: "bg-blue-100 text-blue-800 border-blue-200",
     academic_master: "bg-green-100 text-green-800 border-green-200",
     professional_master: "bg-teal-100 text-teal-800 border-teal-200",
