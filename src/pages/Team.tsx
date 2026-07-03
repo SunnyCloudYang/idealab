@@ -5,7 +5,7 @@ import { mockTeamMembers } from "../data/mockData";
 import type { TeamMember } from "../types";
 
 const isAlumniPhd = (member: TeamMember) =>
-  member.bio?.includes("博士") ?? false;
+  member.role === "postdoc" || (member.bio?.includes("博士") ?? false);
 
 const sortAlumni = (members: TeamMember[]) =>
   [...members].sort((a, b) => {
@@ -38,7 +38,11 @@ const Team: React.FC = () => {
           (m) => m.role === "master" && m.type === "engineer"
         )
       : selectedRole === "alumni"
-      ? sortAlumni(mockTeamMembers.filter((m) => m.role === "alumni"))
+      ? sortAlumni(
+          mockTeamMembers.filter(
+            (m) => m.role === "alumni" || m.role === "postdoc"
+          )
+        )
       : mockTeamMembers.filter((member) => member.role === selectedRole);
 
   // 按角色分组显示，将硕士生分为学硕和专硕
@@ -52,7 +56,9 @@ const Team: React.FC = () => {
     professional_master: mockTeamMembers.filter(
       (m) => m.role === "master" && m.type === "engineer"
     ),
-    alumni: sortAlumni(mockTeamMembers.filter((m) => m.role === "alumni")),
+    alumni: sortAlumni(
+      mockTeamMembers.filter((m) => m.role === "alumni" || m.role === "postdoc")
+    ),
   };
 
   const roleDisplayNames = {
@@ -143,9 +149,18 @@ const Team: React.FC = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {members.map((member) => (
                       <MemberCard
-                        key={member.id}
+                        key={
+                          role === "alumni" && member.role === "postdoc"
+                            ? `alumni-${member.id}`
+                            : member.id
+                        }
                         member={member}
                         showDetails={true}
+                        variant={
+                          role === "alumni" && member.role === "postdoc"
+                            ? "alumni"
+                            : "student"
+                        }
                       />
                     ))}
                   </div>
@@ -170,9 +185,18 @@ const Team: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredMembers.map((member) => (
                 <MemberCard
-                  key={member.id}
+                  key={
+                    selectedRole === "alumni" && member.role === "postdoc"
+                      ? `alumni-${member.id}`
+                      : member.id
+                  }
                   member={member}
                   showDetails={true}
+                  variant={
+                    selectedRole === "alumni" && member.role === "postdoc"
+                      ? "alumni"
+                      : "student"
+                  }
                 />
               ))}
             </div>

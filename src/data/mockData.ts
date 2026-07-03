@@ -148,7 +148,7 @@ export const mockTeamMembers: TeamMember[] = [
       "智慧城市运营管理",
       "分布式鲁棒优化",
     ],
-    bio: "特任副教授，研究生导师，专注于智慧城市运营管理和收益管理的应用研究，在分布式鲁棒优化、动态规划等理论层面有深入研究。",
+    bio: "特任副教授，研究生导师，专注于智慧城市运营管理研究，在鲁棒优化等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -195,7 +195,7 @@ export const mockTeamMembers: TeamMember[] = [
       "预约调度",
       "动态规划",
     ],
-    bio: "特任副研究员，研究生导师，专注于预约调度、资源规划的应用研究，在动态规划、整数规划、算法设计等理论层面有深入研究。",
+    bio: "特任副研究员，研究生导师，专注于预约调度与资源规划研究，在动态规划等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -241,7 +241,7 @@ export const mockTeamMembers: TeamMember[] = [
       "数据驱动的运营管理",
       "分布式鲁棒优化",
     ],
-    bio: "特任副研究员，专注于数据驱动的运营管理研究，在分布式鲁棒优化、机器学习、计量经济学与优化模型结合等领域有重要贡献。",
+    bio: "特任副研究员，专注于数据驱动运营管理研究，在鲁棒优化与机器学习等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -296,7 +296,7 @@ export const mockTeamMembers: TeamMember[] = [
     email: "dujianzhong@ustc.edu.cn",
     website: "https://bs.ustc.edu.cn/chinese/profile-2322.html",
     researchInterests: ["仿真优化及其应用"],
-    bio: "特任副教授，专注于仿真优化及其应用研究，在随机优化、仿真建模与优化等领域有重要贡献。",
+    bio: "特任副教授，专注于仿真优化及其应用研究，在随机优化与仿真建模等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -348,7 +348,7 @@ export const mockTeamMembers: TeamMember[] = [
     email: "wenqian_liu@swjtu.edu.cn",
     website: "https://faculty.swjtu.edu.cn/liuwenqian1/zh_CN/index.htm",
     researchInterests: ["低空物流", "智慧调度"],
-    bio: "聚焦无人机与车辆协同配送、实时决策优化与空地一体化运力配置研究。在低空物流系统建模与调度优化有重要贡献。",
+    bio: "助理教授，专注于低空物流与智慧调度研究，在无人机协同配送等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -396,7 +396,7 @@ export const mockTeamMembers: TeamMember[] = [
       "数据驱动的运营管理",
       "智慧交通",
     ],
-    bio: "特任副研究员，专注于智慧交通系统的运营优化研究，在分布式鲁棒优化、运筹优化与数据驱动决策等理论方法方面开展深入研究。",
+    bio: "特任副研究员，研究生导师，专注于智慧交通运营优化研究，在数据驱动决策等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -440,7 +440,7 @@ export const mockTeamMembers: TeamMember[] = [
     email: "wangderui@ustc.edu.cn",
     website: "https://bs.ustc.edu.cn/chinese/profile-2216.html",
     researchInterests: ["供应链管理", "风险管理"],
-    bio: "特任副教授，研究生导师，研究兴趣：供应链管理，风险管理",
+    bio: "特任副教授，研究生导师，专注于供应链管理与风险管理研究，在竞合博弈等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -479,7 +479,7 @@ export const mockTeamMembers: TeamMember[] = [
     email: "luwentao@ustc.edu.cn",
     website: "https://bs.ustc.edu.cn/chinese/profile-2651.html",
     researchInterests: ["平台运营", "收益管理与定价"],
-    bio: "特任副教授，研究生导师，研究兴趣：平台运营，收益管理与定价",
+    bio: "特任副教授，研究生导师，专注于平台运营与收益管理研究，在定价策略等领域有重要贡献。",
     education: [
       {
         degree: "博士学位",
@@ -531,10 +531,13 @@ export const mockTeamMembers: TeamMember[] = [
     nameEn: "Weiqian Lu",
     role: "postdoc",
     avatar: "/images/avatars/卢蔚乾.jpg",
-    researchInterests: [],
-    bio: "博士后研究员",
+    email: "wqlu@mail.ustc.edu.cn",
+    researchInterests: ["消费者搜索", "信息设计"],
+    bio: "专注于消费者搜索和信息设计研究。",
+    alumniBio: "博士毕业生",
     joinYear: 2018,
-    currentPosition: "南方科技大学",
+    graduationYear: 2026,
+    currentPosition: "南方科技大学博士后",
     education: [
       {
         degree: "博士学位",
@@ -555,10 +558,13 @@ export const mockTeamMembers: TeamMember[] = [
     nameEn: "Xucheng Liu",
     role: "postdoc",
     avatar: "/images/avatars/刘许成.jpg",
-    researchInterests: [],
-    bio: "博士后研究员",
+    email: "lkdn@mail.ustc.edu.cn",
+    researchInterests: ["合作博弈及应用"],
+    bio: "专注于合作博弈及应用研究。",
+    alumniBio: "博士毕业生",
     joinYear: 2019,
-    currentPosition: "中国科学技术大学",
+    graduationYear: 2026,
+    currentPosition: "中国科学技术大学博士后",
     education: [
       {
         degree: "博士学位",
@@ -579,10 +585,13 @@ export const mockTeamMembers: TeamMember[] = [
     nameEn: "Menghang Wang",
     role: "postdoc",
     avatar: "/images/avatars/汪勐航.jpg",
-    researchInterests: [],
-    bio: "博士后研究员",
+    email: "wmh0205@mail.ustc.edu.cn",
+    researchInterests: ["分布鲁棒优化", "合作博弈"],
+    bio: "专注于分布鲁棒优化和合作博弈研究。",
+    alumniBio: "博士毕业生",
     joinYear: 2019,
-    currentPosition: "中国科学技术大学",
+    graduationYear: 2026,
+    currentPosition: "中国科学技术大学博士后",
     education: [
       {
         degree: "博士学位",
@@ -603,10 +612,13 @@ export const mockTeamMembers: TeamMember[] = [
     nameEn: "Kuan Xu",
     role: "postdoc",
     avatar: "/images/avatars/徐宽.jpg",
-    researchInterests: [],
-    bio: "博士后研究员",
+    email: "mathkxu@mail.ustc.edu.cn",
+    researchInterests: ["路径规划", "人工智能算法"],
+    bio: "专注于路径规划和人工智能算法研究。",
+    alumniBio: "博士毕业生",
     joinYear: 2021,
-    currentPosition: "新加坡管理大学",
+    graduationYear: 2026,
+    currentPosition: "新加坡管理大学博士后",
     education: [
       {
         degree: "博士学位",
@@ -819,6 +831,25 @@ export const mockTeamMembers: TeamMember[] = [
         degree: "学士学位",
         institution: "山东大学",
         year: 2022,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "75",
+    name: "陈郅奥",
+    nameEn: "Zhi'ao Chen",
+    role: "phd",
+    avatar: "/images/avatars/陈郅奥.jpg",
+    email: "19805508859@mail.ustc.edu.cn",
+    researchInterests: ["调度优化"],
+    bio: "专注于调度优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "中国石油大学（华东）",
+        year: 2025,
       },
     ],
     publications: [],
@@ -1196,6 +1227,126 @@ export const mockTeamMembers: TeamMember[] = [
         degree: "学士学位",
         institution: "合肥学院",
         year: 2023,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "76",
+    name: "苏睿涵",
+    nameEn: "Ruihan Su",
+    role: "master",
+    avatar: "/images/avatars/苏睿涵.jpg",
+    email: "srh@mail.ustc.edu.cn",
+    researchInterests: ["运筹优化"],
+    type: "academic",
+    bio: "专注于运筹优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "中国科学技术大学",
+        year: 2025,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "77",
+    name: "付一郎",
+    nameEn: "Yilang Fu",
+    role: "master",
+    avatar: "/images/avatars/付一郎.jpg",
+    email: "fyl@mail.ustc.edu.cn",
+    researchInterests: ["学习优化"],
+    type: "academic",
+    bio: "专注于学习优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "合肥工业大学",
+        year: 2025,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "78",
+    name: "金柯",
+    nameEn: "Ke Jin",
+    role: "master",
+    avatar: "/images/avatars/金柯.jpg",
+    email: "jkestelle@mail.ustc.edu.cn",
+    researchInterests: ["运筹优化", "强化学习"],
+    type: "academic",
+    bio: "专注于运筹优化和强化学习研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "中国科学技术大学",
+        year: 2025,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "79",
+    name: "仝宇",
+    nameEn: "Yu Tong",
+    role: "master",
+    avatar: "/images/avatars/仝宇.jpg",
+    email: "SA26204235@ustc.edu.cn",
+    researchInterests: ["鲁棒优化"],
+    type: "academic",
+    bio: "专注于鲁棒优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "合肥工业大学",
+        year: 2025,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "80",
+    name: "刘嘉元",
+    nameEn: "Jiayuan Liu",
+    role: "master",
+    avatar: "/images/avatars/刘嘉元.jpg",
+    email: "559788@mail.ustc.edu.cn",
+    researchInterests: ["运筹优化"],
+    type: "engineer",
+    bio: "专注于运筹优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "合肥工业大学",
+        year: 2025,
+      },
+    ],
+    publications: [],
+  },
+  {
+    id: "81",
+    name: "刘元辛",
+    nameEn: "Yuanxin Liu",
+    role: "master",
+    avatar: "/images/avatars/刘元辛.jpg",
+    email: "yuanxinliu@mail.ustc.edu.cn",
+    researchInterests: ["组合优化", "学习优化"],
+    type: "academic",
+    bio: "专注于组合优化和学习优化研究。",
+    joinYear: 2026,
+    education: [
+      {
+        degree: "学士学位",
+        institution: "武汉大学",
+        year: 2025,
       },
     ],
     publications: [],

@@ -8,6 +8,7 @@ interface MemberCardProps {
   member: TeamMember;
   showDetails?: boolean;
   className?: string;
+  variant?: "student" | "alumni";
 }
 
 const formatMemberBio = (member: TeamMember) => {
@@ -27,8 +28,19 @@ const MemberCard: React.FC<MemberCardProps> = ({
   member,
   showDetails = false,
   className = "",
+  variant = "student",
 }) => {
   const displayBio = formatMemberBio(member);
+  const showAsAlumni =
+    member.role === "alumni" ||
+    (variant === "alumni" && member.role === "postdoc");
+  const showStudentProfile = !(
+    variant === "alumni" && member.role === "postdoc"
+  );
+  const cardBio =
+    showAsAlumni && member.role === "postdoc"
+      ? member.alumniBio || "博士毕业生"
+      : displayBio;
 
   return (
     <div className={`group transition-all duration-200 ${className}`}>
@@ -78,7 +90,8 @@ const MemberCard: React.FC<MemberCardProps> = ({
             </p>
           )}
 
-          {/* 研究兴趣 - 减小间距 */}
+          {/* 研究兴趣 */}
+          {showStudentProfile && (
           <div className="flex flex-wrap justify-center gap-1">
             {member.researchInterests
               .slice(0, showDetails ? undefined : 2)
@@ -96,27 +109,24 @@ const MemberCard: React.FC<MemberCardProps> = ({
               </span>
             )}
           </div>
+          )}
 
           {/* 详细信息 */}
           {showDetails && (
             <div className="mt-3 space-y-2 text-left">
-              {displayBio && (
+              {cardBio && (
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  {displayBio}
+                  {cardBio}
                 </p>
               )}
 
-              {/* 毕业生 / 博士后信息 */}
-              {(member.role === "alumni" || member.role === "postdoc") && (
+              {showAsAlumni && (
                 <div className="text-sm text-gray-600">
-                  {member.role === "alumni" && member.graduationYear && (
+                  {member.graduationYear && (
                     <div>毕业年份：{member.graduationYear}年</div>
                   )}
                   {member.currentPosition && (
-                    <div>
-                      {member.role === "postdoc" ? "在站单位" : "当前去向"}：
-                      {member.currentPosition}
-                    </div>
+                    <div>当前去向：{member.currentPosition}</div>
                   )}
                 </div>
               )}
@@ -124,7 +134,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
           )}
 
           {/* 操作按钮 - 只保留联系按钮 */}
-          {member.email && (
+          {showStudentProfile && member.email && (
             <div className="mt-1 flex justify-center">
               <a href={`mailto:${member.email}`}>
                 <Button

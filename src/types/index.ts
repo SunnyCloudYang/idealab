@@ -17,6 +17,7 @@ export interface TeamMember {
   publications?: string[]; // 论文ID列表
   graduationYear?: number; // 毕业生专用
   currentPosition?: string; // 毕业生当前职位
+  alumniBio?: string; // 在毕业生栏目展示时的简介
   joinYear?: number;
   website?: string;
 }
