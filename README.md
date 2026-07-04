@@ -146,27 +146,6 @@ src/
 - **Netlify**: 支持自动部署和表单处理
 - **GitHub Pages**: 免费的静态网站托管
 
-### Vercel 部署
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify 部署
-
-```bash
-npm run build
-# 将 dist 目录上传到 Netlify
-```
-
-## 📄 许可证
-
-MIT License
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request 来改进项目。
 
 ## 📞 联系方式
 
