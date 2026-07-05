@@ -849,7 +849,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "中国石油大学（华东）",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
@@ -1246,7 +1246,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "中国科学技术大学",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
@@ -1266,7 +1266,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "合肥工业大学",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
@@ -1286,7 +1286,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "中国科学技术大学",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
@@ -1306,7 +1306,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "合肥工业大学",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
@@ -1326,7 +1326,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "合肥工业大学",
-        year: 2025,
+        year: 2021
       },
     ],
     publications: [],
@@ -1346,7 +1346,7 @@ export const mockTeamMembers: TeamMember[] = [
       {
         degree: "学士学位",
         institution: "武汉大学",
-        year: 2025,
+        year: 2026,
       },
     ],
     publications: [],
