@@ -3140,6 +3140,58 @@ export const mockLectures: NewsItem[] = [
     talkTime: "2025-11-21",
     talkLocation: "国际金融研究院2号楼303",
   },
+  {
+    id: "talk49",
+    title: "Know Your Users via Image Analytics Before Developing Posts: Data-Driven Optimization Framework to Enhance Social Media Engagement",
+    category: "talk",
+    content:
+      "Temple University Subodha Kumar教授应邀进行学术报告，分享社交媒体参与度提升的数据驱动优化框架研究。",
+    publishDate: "2026-07-22",
+    status: "published",
+    tags: ["学术报告", "数据分析", "社交媒体"],
+    talkSpeaker: "Subodha Kumar（Temple University）",
+    talkTime: "2026-07-22 10:00",
+    talkLocation: "管理科研楼第四教室",
+  },
+  {
+    id: "talk50",
+    title: "Navigating the Future: Business Analytics and Disruptive Tech Trends in Operations Management, Information Systems, Marketing, and Related Domains",
+    category: "talk",
+    content:
+      "Temple University Subodha Kumar教授应邀进行学术报告，探讨商业分析与颠覆性技术趋势在运营管理、信息系统和营销等领域的前沿发展。",
+    publishDate: "2026-07-23",
+    status: "published",
+    tags: ["学术报告", "商业分析", "颠覆性技术"],
+    talkSpeaker: "Subodha Kumar（Temple University）",
+    talkTime: "2026-07-23 10:00",
+    talkLocation: "管理科研楼第四教室",
+  },
+  {
+    id: "talk51",
+    title: "Supply Network Design with Service Mode Selection",
+    category: "talk",
+    content:
+      "电子科技大学舒嘉教授应邀进行学术报告，分享服务模式选择下的供应网络设计研究。",
+    publishDate: "2026-07-29",
+    status: "published",
+    tags: ["学术报告", "供应网络", "服务模式"],
+    talkSpeaker: "舒嘉（电子科技大学）",
+    talkTime: "2026-07-29 14:00",
+    talkLocation: "管理科研楼105讨论室",
+  },
+  {
+    id: "talk52",
+    title: "无感支付与医患关系连续性：门诊结算方式如何影响患者的复诊选择",
+    category: "talk",
+    content:
+      "华南理工大学周文慧教授应邀进行学术报告，探讨无感支付对医患关系连续性的影响。",
+    publishDate: "2026-07-29",
+    status: "published",
+    tags: ["学术报告", "医疗管理", "无感支付"],
+    talkSpeaker: "周文慧（华南理工大学）",
+    talkTime: "2026-07-29 15:00",
+    talkLocation: "管理科研楼105讨论室",
+  },
 ];
 
 // 通知公告数据（单独的时间线页面）
