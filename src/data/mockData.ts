@@ -3142,7 +3142,7 @@ export const mockLectures: NewsItem[] = [
   },
   {
     id: "talk49",
-    title: "Know Your Users via Image Analytics Before Developing Posts: Data-Driven Optimization Framework to Enhance Social Media Engagement",
+    title: "开发帖子前通过图像分析了解用户：提升社交媒体参与度的数据驱动优化框架",
     category: "talk",
     content:
       "Temple University Subodha Kumar教授应邀进行学术报告，分享社交媒体参与度提升的数据驱动优化框架研究。",
@@ -3155,7 +3155,7 @@ export const mockLectures: NewsItem[] = [
   },
   {
     id: "talk50",
-    title: "Navigating the Future: Business Analytics and Disruptive Tech Trends in Operations Management, Information Systems, Marketing, and Related Domains",
+    title: "导航未来：运营管理、信息系统与营销领域的商业分析与颠覆性技术趋势",
     category: "talk",
     content:
       "Temple University Subodha Kumar教授应邀进行学术报告，探讨商业分析与颠覆性技术趋势在运营管理、信息系统和营销等领域的前沿发展。",
@@ -3168,7 +3168,7 @@ export const mockLectures: NewsItem[] = [
   },
   {
     id: "talk51",
-    title: "Supply Network Design with Service Mode Selection",
+    title: "考虑服务模式选择的供应网络设计",
     category: "talk",
     content:
       "电子科技大学舒嘉教授应邀进行学术报告，分享服务模式选择下的供应网络设计研究。",
