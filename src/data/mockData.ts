@@ -3142,7 +3142,7 @@ export const mockLectures: NewsItem[] = [
   },
   {
     id: "talk49",
-    title: "开发帖子前通过图像分析了解用户：提升社交媒体参与度的数据驱动优化框架",
+    title: "发文前依托图像分析洞悉用户：提升社交媒体互动度的数据驱动优化框架",
     category: "talk",
     content:
       "Temple University Subodha Kumar教授应邀进行学术报告，分享社交媒体参与度提升的数据驱动优化框架研究。",
@@ -3155,7 +3155,7 @@ export const mockLectures: NewsItem[] = [
   },
   {
     id: "talk50",
-    title: "导航未来：运营管理、信息系统与营销领域的商业分析与颠覆性技术趋势",
+    title: "驾驭未来发展趋势：运营管理、信息系统、市场营销及相关领域的商业分析与颠覆性技术前沿",
     category: "talk",
     content:
       "Temple University Subodha Kumar教授应邀进行学术报告，探讨商业分析与颠覆性技术趋势在运营管理、信息系统和营销等领域的前沿发展。",
