@@ -26,8 +26,7 @@ const Footer: React.FC = () => {
                     智能决策博弈与数字经济创新
                   </h3>
                   <p className="text-gray-400 text-sm">
-                    Laboratory for Intellectual Decision-making in Engineering
-                    and Analytics
+                    Laboratory for Intelligent Decision-making with Emerging Algorithms
                   </p>
                 </div>
               </div>
