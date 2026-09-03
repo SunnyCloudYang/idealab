@@ -8,7 +8,7 @@ export const mockTeamMembers: TeamMember[] = [
     nameEn: "Lindong Liu",
     role: "faculty",
     title: "特任教授",
-    supervisorType: "博士生导师",
+    supervisorType: "博导",
     avatar: "/images/avatars/liu.jpg",
     email: "ldliu@ustc.edu.cn",
     website: "https://bs.ustc.edu.cn/chinese/profile-315.html",
